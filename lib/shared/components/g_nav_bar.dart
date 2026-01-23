@@ -18,6 +18,7 @@ class GNavBar extends StatelessWidget {
           onTabChange: (value) => onTabChange!(value),
           tabBorderRadius: 16,
           color: Colors.grey[500],
+          gap: 10,
           tabs: [
             GButton(icon: Icons.home, text: 'shop'),
             GButton(icon: Icons.shopping_bag_rounded, text: 'cart'),
